@@ -50,7 +50,7 @@ The raw dataset can be found <a href="http://konect.cc/networks/subelj_euroroad/
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-<h2 id="about-the-project"> :Database: Dataset</h2>
+<h2 id="about-the-project"> :Computer: Dataset</h2>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Analysis -->
