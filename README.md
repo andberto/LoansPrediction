@@ -50,48 +50,10 @@ The raw dataset can be found <a href="http://konect.cc/networks/subelj_euroroad/
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-<h2 id="about-the-project"> :Computer: Dataset</h2>
+<h2 id="about-the-project"> 💿: Dataset</h2>
+The dataset (unprocessed) is quite extensive, containing 148,670 examples with a total of 33 features and 1 target variable, resulting in a matrix of size (148670 x 34). The dataset contains many missing values. The dataset contains both categorical variables (with values mostly expressed as strings) and numerical variables (some of which also have negative values). Given the dataset's characteristics, it requires pre-processing, particularly in terms of feature engineering and feature selection.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Analysis -->
 <h2 id="graph-analysis"> :small_orange_diamond: Graph analysis</h2>
-<h5>Generic stats</h5>
-Considering the average distance (≈18) and the degree
-distribution we can state that the network is neither small word
-nor scale-free, moreover the network has almost tree-like
-structure and it’s very sparse.
-
-| | |
-|:-------------------------:|:-------------------------:|
-|<img src="Images/Europe_stats.png " alt="Network Image" height="282px" width="337"> |  <img src="Images/Degree_distribution.png" alt="Network Image" height="282px" width="337"> |
-
-<h5>Community analysis</h5>
-The key point of the project is the community analysis, some algorithms are evaluated. The analysis revealed a strong community structure.
-
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img src="Images/LouvainGeo_gephi.png " alt="Network Image">  Louvain method |  <img src="Images/AlphaCommGeo_gephy_alpha_0.85_floyd.png" alt="Network Image"> Peristence probabilities alfa=0.85|<img src="Images/AlphaCommGeo_gephy_alpha_0.7_floyd.png" alt="Network Image"> Peristence probabilities alfa=0.7|
-
-<br><br>
-For the complete analysis check the EuroRoad.pdf file !!
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- Analysis -->
-<h2 id="references"> :small_orange_diamond: References</h2>
-[1] Robust network community detection using balanced propagation, L. Šubelj et. Al, 2011 (<a href="https://arxiv.org/pdf/1106.5524.pdf">arxiv.org</a>)
-<br>
-[2] Profiling core-periphery network structure by random walkers, F. Della Rossa et al, 2013. (<a href="https://www.nature.com/articles/srep01467">nature.com</a>)
-<br>
-[3] Fast unfolding of communities in large networks, Blondel et al. 2008. (<a href="https://arxiv.org/abs/0803.0476">arxiv.org</a>)
-<br>
-[4] Finding and testing network communities by lumped Markov chains, C. Piccardi, 2011. (<a href="https://arxiv.org/abs/1106.0596">arxiv.org</a>)
-<br>
-[5] Maps of random walks on complex networks reveal community structure, M. Rosvall, C. T. Bergstrom,
-2008. (<a href="https://arxiv.org/abs/0707.0609">arxiv.org</a>)
-<br>
-[6] Near linear time algorithm to detect community structures in large-scale networks, U. N. Raghavan
-et al., 2007. (<a href="https://arxiv.org/abs/0709.2938">arxiv.org</a>)
-<br>
-[7] Towards real-time community detection in large networks, I. X. Y Leung et al., 2009. (<a href="https://arxiv.org/abs/0808.2633">arxiv.org</a>)
 
