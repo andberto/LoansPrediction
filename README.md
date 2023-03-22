@@ -1,11 +1,8 @@
 
-<h1 align="center">European road network analysis</h1>
-<h3 align="center"> Computer science and engineering </h3>
-<h5 align="center"> Project Assignment - Complessità nei sistemi e nelle reti  - <a href="https://www.polimi.it/">Politecnico di Milano</a> (March 2023) </h5>
-
-<p align="center"> 
-  <img src="Images/flag.png" alt="Network Image" height="133" width="223">
-</p>
+<h1 align="center">
+Loans reliability prediction</h1>
+<h3 align="center"> Computer, Electronic and Telecommunications Engineering </h3>
+<h5 align="center"> Project Assignment - Introduction to artificial intelligence  - <a href="https://www.polimi.it/">University of Parma</a> (March 2023) </h5>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
@@ -16,8 +13,7 @@
     <li><a href="#about-the-project"> ➤ About The Project</a></li>
     <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
     <li><a href="#dataset"> ➤ Dataset </a></li>
-    <li><a href="#Analysis summary"> ➤ Graph analysis</a></li>
-    <li><a href="#references"> ➤ References</a></li>
+    <li><a href="#analysis"> ➤ Analysis</a></li>
   </ol>
 </details>
 
@@ -51,5 +47,5 @@ The dataset (unprocessed) is quite extensive, containing 148,670 examples with a
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Analysis -->
-<h2 id="graph-analysis"> :small_orange_diamond:Analysis</h2>
+<h2 id="analysis"> :small_orange_diamond:Analysis</h2>
 The analysis carried out is contained in the script Loans.py and is described in detail in the file Relazione.pdf. It contains the preprocesing on the dataset and the best model selection.
