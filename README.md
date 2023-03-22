@@ -15,7 +15,7 @@
   <ol>
     <li><a href="#about-the-project"> ➤ About The Project</a></li>
     <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
-    <li><a href="#project-files-description"> ➤ Dataset </a></li>
+    <li><a href="#dataset"> ➤ Dataset </a></li>
     <li><a href="#Analysis summary"> ➤ Graph analysis</a></li>
     <li><a href="#references"> ➤ References</a></li>
   </ol>
@@ -44,9 +44,12 @@ The raw dataset can be found <a href="http://konect.cc/networks/subelj_euroroad/
 <!-- PROJECT FILES DESCRIPTION -->
 <h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 <ul>
-<li><b>GephiParser.py:</b> a simple script to parse some data in Gephy format.</li>
-<li><b>CoordsRetriever.py:</b> it automatically retrieves cities coords using OpenStreetMaps API.</li>
-<li><b>Euroroad.py:</b> the main script.</li>
+  <li><b>Constants.py</b>: File containing constants to configure the execution of the scripts.</li>
+  <li><b>Loan_Default.csv</b>:the dataset from kaggle (<a href="https://www.kaggle.com/datasets/yasserh/loan-default-dataset">kaggle.com</a>)</li>
+  <li><b>Loans.py</b>The main script</li>
+  <li><b>MongoDB_Load.py</b>Integration script for MongoDB.</li>
+  <li><b>Plot_utils.py</b>: Script for data visualization.</li>
+  <li><b>Relazione.pdf</b>: The full analysis (discalimer: available only in italian).</li>
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -55,5 +58,5 @@ The dataset (unprocessed) is quite extensive, containing 148,670 examples with a
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Analysis -->
-<h2 id="graph-analysis"> :small_orange_diamond: Graph analysis</h2>
-
+<h2 id="graph-analysis"> :small_orange_diamond:Analysis</h2>
+The analysis carried out is contained in the script Loans.py and is described in detail in the file Relazione.pdf. It contains the preprocesing on the dataset and the best model selection.
