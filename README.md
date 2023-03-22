@@ -2,7 +2,7 @@
 <h1 align="center">
 Loans reliability prediction</h1>
 <h3 align="center"> Computer, Electronic and Telecommunications Engineering </h3>
-<h5 align="center"> Project Assignment - Introduction to artificial intelligence  - <a href="https://www.polimi.it/">University of Parma</a> (March 2023) </h5>
+<h5 align="center"> Project Assignment - Introduction to artificial intelligence  - <a href="https://www.unipr.it">University of Parma</a> (June 2022) </h5>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
